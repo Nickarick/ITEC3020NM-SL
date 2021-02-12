@@ -4,11 +4,12 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/base/css/base1.css">
+	<link rel="stylesheet" href="assets/base/css/Footer-Dark.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i">
 </head>
 
-<body style="background:linear-gradient(rgba(100, 108, 111, 0.65), rgba(100, 108, 111, 0.65)), url('bg.jpg');">
+<body style="background:linear-gradient(rgba(100, 108, 111, 0.65), rgba(90, 100, 100, 0.65)), url('bg.jpg');">
     <nav class="navbar navbar-light navbar-expand-lg bg-dark py-lg-4" id="mainNav">
         <div class="container"><img src="assets/img/thrift.png" width="100" height="65" style="margin: 15px;">
                                                                                 <!-- Customer Location button -->     
@@ -20,7 +21,7 @@
                     <ul class="nav navbar-nav mx-auto">
                         <li class="nav-item"></li>
                                                                                 <!-- Customer Account button --> 
-                    </ul><a href="index.html" style="color: rgb(221,152,62);">Accounts &amp; Lists</a><a href="index.html">Returns &amp; Orders</a><img src="assets/img/cart.png" style="background: #8f6c6c;"></div>
+                    </ul><a href="index.html" style="color: rgb(221,152,62);">Accounts &amp; Lists</a><a href="index.html">Returns &amp; Orders</a> <a href="https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart"><img src="assets/img/cart.png" style="background: #8f6c6c;"></a></div>
         </div>
     </nav>
                                                                                         <!-- Product photo -->
@@ -36,23 +37,24 @@
         </h1>
         <hr style="height:2px;border-width:2;color:gray;background-color:black">
                                                                                             <!-- Colour drop down button -->
-    <div class="dropdown">
-            <button onclick="myDrop()" class="dropbtn">Colour</button>
+   
+	<div class="dropdown">
+            <button onclick="myDrop()" class="dropbtn" style="margin-right:5px">Colour</button>
         <div id="Dropdown" class="dropdown-content">
             <a href="#BlueC">Blue</a>
             <a href="#OrangeC">Orange</a>
             <a href="#BlackC">Black</a>
         </div>
-                                                                                            <!-- Size drop down button -->
-        <div class="dropdown">
-            <button onclick="myDrop()" class="dropbtn">Size</button>
+                                                                                            <!-- Size button -->
+   
+            <button>Size</button>
         <div id="Dropdown" class="dropdown-content">
             <a href="#sml">Small</a>
             <a href="#Med">Medium</a>
             <a href="#Lar">Large</a>
             <a href="#Xlar">X-Large</a>
         </div>
-<Script>
+	<Script>
                                     /* When the user clicks on the button, 
                                         toggle between hiding and showing the dropdown content */
 function myDrop() {
@@ -75,13 +77,9 @@ window.onclick = function(event) {
 
 </Script>
 
-    <div class="dropdown">
-     <button class="CartBtn">Add to Cart</button>
-        
+     <button>Add to Cart</button>
+      
 
-    </div>    
-
-        </div>
 
      </div>
  </div>
@@ -97,10 +95,10 @@ window.onclick = function(event) {
         </ul>
             
 </div>   
-        
-                                                                                                <!-- Various photos of different products -->
+
+                                                                                                    <!-- Various photos of different products -->
     <div id="footer">
-        <h2>&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Customers Also Viewed</h2>
+        <h2> &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Customers Also Viewed</h2>
         <hr style="height:2px;border-width:2;color:gray;background-color:black">
     <div class="clearfix">
                                                                                                         <!-- Description for the Jeans -->
@@ -126,6 +124,30 @@ window.onclick = function(event) {
        </div>
       </div>  
     </div>
+	
+	 <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Get to Know Us</h3>
+             
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Privacy Policy</h3>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Terms of Use</h3>
+                    </div>
+                </div>
+                <p class="copyright">Thrift © 2021</p>
+            </div>
+        </footer>
+    </div>
+	
+<script src = "/assets/base/js/dropdown.js"></script>
+	
+	
 </body>
 
 </html>
