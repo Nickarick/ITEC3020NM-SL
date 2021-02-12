@@ -11,16 +11,101 @@
 <body style="background:linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url('bg.jpg');">
     <nav class="navbar navbar-light navbar-expand-lg bg-dark py-lg-4" id="mainNav">
         <div class="container"><img src="assets/img/thrift.png" width="100" height="65" style="margin: 15px;">
+                                                                                <!-- Customer Location button -->     
             <a
+
                 href="index.html" style="text-align: center;">Select your address please</a>
                 <input type="search" style="width: 500px;margin: 3px;" name="SearchBar">
-				<img class="rounded" src="assets/img/magnifier.png" style="width: 35px;height: 27px;">
+        <img class="rounded" src="assets/img/magnifier.png" style="width: 35px;height: 27px;">
                     <ul class="nav navbar-nav mx-auto">
                         <li class="nav-item"></li>
+                                                                                <!-- Customer Account button --> 
                     </ul><a href="index.html" style="color: rgb(221,152,62);">Accounts &amp; Lists</a><a href="index.html">Returns &amp; Orders</a><img src="assets/img/cart.png" style="background: #8f6c6c;"></div>
         </div>
     </nav>
-    
+                                                                                        <!-- Product photo -->
+    <div id="ProductPhoto">
+        <img class="MainShirt" src="assets/img/GapShirt.png" style=" width: 450px; height: 450px; float: left; margin: 200px 120px" alt="Product Photo">
+        
+    </div>
+                                                                                             <!-- Product Price and Descriptoion -->
+
+    <div id="ProductDescription">
+        <h1>
+            Gap Logo Crewneck Sweatshirt
+        </h1>
+        <hr style="height:2px;border-width:2;color:gray;background-color:black">
+                                                                                            <!-- Colour drop down button -->
+    <div class="dropdown">
+            <button onclick="myDrop()" class="dropbtn">Colour</button>
+        <div id="Dropdown" class="dropdown-content">
+            <a href="#BlueC">Blue</a>
+            <a href="#OrangeC">Orange</a>
+            <a href="#BlackC">Black</a>
+        </div>
+                                                                                            <!-- Size drop down button -->
+        <div class="dropdown">
+            <button onclick="myDrop()" class="dropbtn">Size</button>
+        <div id="Dropdown" class="dropdown-content">
+            <a href="#sml">Small</a>
+            <a href="#Med">Medium</a>
+            <a href="#Lar">Large</a>
+            <a href="#Xlar">X-Large</a>
+        </div>
+
+    <div class="dropdown">
+     <button>Add to Cart</button>
+        
+
+    </div>    
+
+        </div>
+
+     </div>
+ </div>
+ <div class="ProductSpec">
+        <h2>Specifications:</h2>
+        <ul >
+            <li>Soft Knit</li>
+            <li>Long Sleeve</li>
+            <li>CrewNeck</li>
+            <li>Gap Logo Print at front</li>
+            <li>#630456</li>
+            
+        </ul>
+            
+</div>   
+        
+   
+
+                                                                                                    <!-- Various photos of different products -->
+    <div id="footer">
+        <h2>Customer's Also Viewed</h2>
+        <hr style="height:2px;border-width:2;color:gray;background-color:black">
+    <div class="clearfix">
+                                                                                                        <!-- Description for the Jeans -->
+       <div class="addtional">
+        <a href="https://www.gapcanada.ca/browse/product.do?pid=941822003&pcid=999&vid=1&&searchText=jeans#pdp-page-content">
+        <img src="assets/img/GapJeans.png" style=" width: 200px; height: 200px;" alt="Jeans">  
+         <p>Skinny Jeans with GapFlex</p>
+           <h4>CA$34.00</h4>
+       </div> 
+                                                                                                 <!-- Description for the Hat -->
+       <div class="addtional">
+       <a href="https://www.gapcanada.ca/browse/product.do?pid=617072153&cid=1046553&pcid=1046553&vid=1&nav=meganav%3AMen%3ACategories%3AHats%2C%20Scarves%20%26%20Extras&grid=pds_2_13_1&cpos=2&cexp=318&kcid=CategoryIDs%3D1046553&ctype=Listing&cpid=res21021020830280675473753#pdp-page-content">
+           <img src="assets/img/GapHat.png" style=" width: 200px; height: 200px;" alt="Hat">
+         <p>Rib Beanie</p>
+           <h4>CA$18.00</h4>
+       </div>
+                                                                                                         <!-- Description for the Mask-->
+       <div class="addtional">
+        <a href="https://www.gapcanada.ca/browse/product.do?pid=822558093&cid=1158590&pcid=1157839&vid=1&grid=pds_1_59_1#pdp-page-content">
+           <img src="assets/img/GapMasks.png" style=" width: 200px; height: 200px;" alt="Mask">
+           <p>Adult Contour Mask with <br> Filter Pocket (3-Pack)</p>
+           <h4>CA$7.00</h4>
+       </div>
+      </div>  
+    </div>
 </body>
 
 </html>
